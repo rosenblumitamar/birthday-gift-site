@@ -13,7 +13,7 @@ p {
   text-shadow: 0 0 1px #000000;
 }
 
-#bff-img {
+#dog-img {
   width: 150px;
   margin-bottom: 10px;
   border: 6px solid #efb0c9;
@@ -52,38 +52,39 @@ p {
   margin-top: 0;
 }
 
-#gift-img-cheers {
-  height: 200px;
+#gift-img-happy {
+  height: 300px;
 }
 
 .gift-img {
   max-width: 400px;
   height: 400px;
   margin: 20px auto;
-  border: 6px solid white;
+  border: 6px solid #efb0c9;
   border-radius: 10px;
-  background-image: url("/images/gift-cover.jpg");
+  background-image: url("/images/gift-cover.gif");
+  background-position: right;
   background-size: cover;
+}
+
+#gift-img-cool:hover {
+  background-image: url("/images/cool.gif");
+}
+
+#gift-img-funny:hover {
+  background-image: url("/images/funny.gif");
+}
+
+#gift-img-energy:hover {
+  background-image: url("/images/energy.gif");
+}
+
+#gift-img-smart:hover {
+  background-image: url("/images/smart.gif");
 }
 
 #gift-img-happy:hover {
   background-image: url("/images/happy.gif");
-}
-
-#gift-img-hot:hover {
-  background-image: url("/images/hot.gif");
-}
-
-#gift-img-genius:hover {
-  background-image: url("/images/genius.gif");
-}
-
-#gift-img-badass:hover {
-  background-image: url("/images/badass.gif");
-}
-
-#gift-img-cheers:hover {
-  background-image: url("/images/cheers.gif");
 }
 
 #footer {
